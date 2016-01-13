@@ -12,7 +12,7 @@ except ImportError:
     from urllib2 import URLError  
 
 def main():
-    bot = telegram.Bot('170108930:AAF8OKNjqlqmBGs_vgKEX6uHEE1Yxt5mkVI')
+    bot = telegram.Bot('HERE IS A TOKEN')
     try:
         update_id = bot.getUpdates()[0].update_id
     except IndexError:
